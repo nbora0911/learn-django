@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "${workspaceFolder}/venvblog/bin/python",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+}

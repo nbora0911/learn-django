@@ -1,0 +1,20 @@
+<h1> Welcome to Neha's Uber Stories!</h1>
+
+<h2> Latest Posts </h2>
+
+{% for  post in posts %}
+  
+    {{ post.title }}
+    <br />
+    {{ post.date_published}}
+    <br />
+    <img src="{{ post.image.url }}" />
+    <br />
+    {{ post.summary}}
+    <br />
+    <br />
+    {% comment %} {{asfsdgbgdf}} {% endcomment %}
+{% endfor %}
+
+<h3> Are we getting here? </h3>
+<h3> Are we getting here???????? </h3>
